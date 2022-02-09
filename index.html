@@ -20,26 +20,27 @@
 
         <!-- Шапка сайта -->
         <header>
-            <div class="container">
-                <div class="nav-block">
+            <div class="container main-nav">
+                <div>
                     <nav class="navigation">
                         <a href="./index.html" class="logo">
                             <span class="accent">Web</span><span class="logo-header">Studio</span>
                         </a>
+                </div>
+                <div class="nav-block">
                         <ul class="site-nav list">
-                            <li><a href="./index.html" class="link current">Студия</a></li>
-                            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                            <li><a href="" class="link">Контакты</a></li>
+                            <li class="nav-item"><a href="./index.html" class="link current">Студия</a></li>
+                            <li class="nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                            <li class="nav-item"><a href="" class="link">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
-
                 <div class="contact-block">
                     <ul class="header-nav list">
-                        <li>
+                        <li class="nav-item">
                             <a href="mailto:info@devstudio.com" class="link-contact">info@devstudio.com</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a>
                         </li>
                     </ul>
@@ -64,27 +65,27 @@
             <!-- Особенности и преимущества -->
 
             <section class="featurs">
-                <div class="wrapper">
+                <div class="container">
                     <ul class="our-featur list">
-                        <li>
+                        <li class="feature-list">
                             <h4 class="featur-title">Внимание к деталям</h4>
                             <p class="text">
                                 Идейные соображения, а также начало повседневной работы по формированию позиции.
                             </p>
                         </li>
-                        <li>
+                        <li class="feature-list">
                             <h4 class="featur-title">Пунктуальность</h4>
                             <p class="text">
                                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                             </p>
                         </li>
-                        <li>
+                        <li class="feature-list">
                             <h4 class="featur-title">Планирование</h4>
                             <p class="text">
                                 Равным образом консультация с широким активом в значительной степени обуславливает.
                             </p>
                         </li>
-                        <li>
+                        <li class="feature-list">
                             <h4 class="featur-title">Современные технологии</h4>
                             <p class="text">
                                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -97,21 +98,21 @@
             <!-- Чем мы занимаемся -->
 
             <section class="main-project">
-                <div class="wrapper">
+                <div class="container">
                     <h2 class="section-title">Чем мы занимаемся</h2>
 
                     <ul class="main-prj-list list">
-                        <li>
+                        <li class="main-prj-link">
                             <img src="./images/wedo1.jpg" alt="Разработчик пишет код" width="370" />
                         </li>
-                        <li>
+                        <li class="main-prj-link">
                             <img src="./images/wedo2.jpg" alt="Просмотр мобильных макетов на компютере" width="370" />
                         </li>
-                        <li>
+                        <li class="main-prj-link">
                             <img src="./images/wedo3.jpg" alt="Работа с палитрой на планшете" width="370" />
                         </li>
                     </ul>
-                </div>-box
+                </div>
             </section>
 
             <!-- Наша команда -->
@@ -121,36 +122,44 @@
                     <h2 class="team-title">Наша команда</h2>
 
                     <ul class="team-list list">
-                        <li>
-                            <img src="./images/product.jpg" alt="Фотография Продакт-дизайнера" width="270">
-                            <h3 class="name">Игорь Демьяненко</h3>
-                            <p class="position">
-                                Product Designer
-                            </p>
+                        <li class="team-member">
+                            <div class="team-item">
+                                <img src="./images/product.jpg" alt="Фотография Продакт-дизайнера" width="270">
+                                <h3 class="name">Игорь Демьяненко</h3>
+                                <p class="position">
+                                    Product Designer
+                                </p>
+                            </div>
                         </li>
 
-                        <li>
-                            <img src="./images/frontend.jpg" alt="Фоторафия разработчика" width="270">
-                            <h3 class="name">Ольга Репина</h3>
-                            <p class="position">
-                                Frontend Developer
-                            </p>
+                        <li class="team-member">
+                            <div class="team-item">
+                                <img src="./images/frontend.jpg" alt="Фоторафия разработчика" width="270">
+                                <h3 class="name">Ольга Репина</h3>
+                                <p class="position">
+                                    Frontend Developer
+                                </p>
+                            </div>
                         </li>
 
-                        <li>
-                            <img src="./images/marketing.jpg" alt="Фотография маркетолога" width="270">
-                            <h3 class="name">Николай Тарасов</h3>
-                            <p class="position">
-                                Marketing
-                            </p>
+                        <li class="team-member">
+                            <div class="team-item">
+                                <img src="./images/marketing.jpg" alt="Фотография маркетолога" width="270">
+                                <h3 class="name">Николай Тарасов</h3>
+                                <p class="position">
+                                    Marketing
+                                </p>
+                            </div>
                         </li>
 
-                        <li>
-                            <img src="./images/designer.jpg" alt="Фоторафия дизайнера" width="270">
-                            <h3 class="name">Михаил Ермаков</h3>
-                            <p class="position">
-                                UI Designer
-                            </p>
+                        <li class="team-member">
+                            <div class="team-item">
+                                <img src="./images/designer.jpg" alt="Фоторафия дизайнера" width="270">
+                                <h3 class="name">Михаил Ермаков</h3>
+                                <p class="position">
+                                    UI Designer
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -161,9 +170,9 @@
 
         <!-- Footer -->
 
-        <footer>
+        <footer class="footer">
 
-            <div class="footer-box">
+            <div class="container">
                 <a href="./index.html" class="logo">
                     <span class="accent">Web</span><span class="logo-footer">Studio</span>
                 </a>
