@@ -73,12 +73,13 @@ body{
 
 .site-nav {
     display: flex;
+    padding-left: 93px;
 }
 
-.nav-block {
+/* .nav-block {
     display: flex;
     margin-left: 93px;
-}
+} */
 
 .contact-block {
     display: flex;
@@ -117,7 +118,7 @@ body{
     align-items: center;
 }
 
-header {
+.header {
     padding-top: 24px;
     padding-bottom: 25px;
 
