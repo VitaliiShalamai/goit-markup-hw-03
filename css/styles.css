@@ -356,6 +356,11 @@ body{
 
 /* Страница "Портфолио" */
 
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Фильтр */
 
 .filter-title {
@@ -375,7 +380,6 @@ body{
     display: flex;
     padding-left: 0;
     justify-content: center;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -387,17 +391,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    padding-bottom: 94px;
 }
 
 .project-item {
     margin-right: 30px;
     margin-bottom: 30px;
-
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #EEEEEE;
-    background: var(--primary-bg-color);
 }
 
 .project-item:nth-child(3n) {
@@ -436,6 +434,16 @@ body{
 
 .project-link {
     text-decoration: none;
+
+    margin: 0;
+}
+
+.project-description {
+    padding: 20px 24px;
+    margin: 0;
+
+    border: 1px solid #EEEEEE;
+    background: var(--primary-bg-color);
 }
 
 .project-title {
@@ -444,10 +452,15 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 .project-name {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.87;
+    margin-top: 0;
+    margin-bottom: 0;
 }
