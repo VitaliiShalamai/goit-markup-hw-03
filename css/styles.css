@@ -235,12 +235,16 @@ body{
 .featurs,
 .main-project {
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .our-featur {
     display: flex;
-    padding-top: 94px;
     padding-left: 0;
+}
+
+.feature-list {
+    width: 270px;
 }
 
 .our-featur .feature-list:not(:last-child) {
@@ -255,6 +259,13 @@ body{
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+
+.featur-text {
+    font-size  : 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 /* Чем мы занимаемся */
