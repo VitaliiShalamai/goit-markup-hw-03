@@ -155,7 +155,11 @@ body{
 /* Контакты футера */
 
 .footer-nav {
+    padding-top: 20px;
     padding-left: 0;
+}
+.footer-nav .address-link:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-nav .link-contact {
